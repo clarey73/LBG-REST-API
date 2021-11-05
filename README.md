@@ -113,6 +113,15 @@ We can expect an object to be created that matches this format.
 }
 ~~~
 
+### Integration
+
+An example integration test we can create for this project to test the RESTful endpoints.
+If test the DELETE endpoint by sending a request with a method of 'DELETE' and a path of '/product/delete/1' we should expect the response to be:
+
+Status code : 204
+Status text : No content
+
+
 
 
 
