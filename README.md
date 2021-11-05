@@ -127,6 +127,23 @@ If we created our lemon above and received the 201 status code and status text o
 
 Alternatively we could 'black box' system test using the front end to create a new product and reading the page to make sure that the new product has been created.
 
+### User acceptance testing
+
+An example of a UAT would be :
+
+*As a* user
+*when* I enter a product ID into the udpate field
+*and* enter new info
+*I want* to be able to see that the product has been updated.
+
+GIVEN that a user can access the front-end of the API
+WHEN they enter a valid id into the update field
+AND they enter a name
+AND they enter a description
+AND they enter a price
+AND they click the PUT button
+THEN the updated product is visible on the page
+
 
 
 
